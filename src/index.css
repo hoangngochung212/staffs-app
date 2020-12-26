@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.__item:hover{
+  cursor: pointer;
+  background-color: rgba(0,0,0,.05);
+}
+
+.toast-error{
+  background-color: #BD362F !important;
+}
+.toast-warning {
+  background-color: #F89406 !important;
+}
+.toast-success {
+  background-color: #51A351 !important;
+}
+.toast-info {
+  background-color: #839ca3 !important;
+}
