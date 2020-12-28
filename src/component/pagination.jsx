@@ -30,9 +30,7 @@ export default function Pagination(props) {
             className={`page-item ${currentPage === number ? "active" : ""}`}
             onClick={() => handlePagination(number, index)}
           >
-            <a href="!#" className="page-link">
-              {number}
-            </a>
+            <span className="page-link">{number}</span>
           </li>
         ))}
         <li
@@ -41,9 +39,9 @@ export default function Pagination(props) {
           } `}
           onClick={() => handlePageChange(currentPage + 1)}
         >
-          <a className="page-link" href="!#" tabIndex="-1">
+          <span className="page-link" tabIndex="-1">
             Next
-          </a>
+          </span>
         </li>
       </ul>
     </div>

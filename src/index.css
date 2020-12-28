@@ -28,3 +28,7 @@ code {
 .toast-info {
   background-color: #839ca3 !important;
 }
+.disabled{
+  pointer-events: none;
+  cursor: pointer;
+}
